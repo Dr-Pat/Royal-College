@@ -405,7 +405,7 @@ h2{
 
 @media (max-width: 768px) {
     .home{
-        margin-top: 45px;
+        margin-top: 55px;
         display: flex;
         flex-direction: column;
     }
@@ -435,6 +435,10 @@ h2{
 }
 
 @media (max-width: 390px){
+	.home{
+        margin-top: 50px;
+	}
+	
     .home h1{
         font-size: x-large;
     }
