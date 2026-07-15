@@ -320,6 +320,24 @@ h2{
     z-index:999;
 }
 
+@media (max-width: 768px) {
+    .nav-extra{
+    width: 200px;
+    }
+}
+
+@media (max-width: 390px) {
+    .nav-extra{
+    width: 180px;
+    }
+}
+
+@media (max-width: 320px) {
+    .nav-extra{
+    width: 120px;
+    }
+}
+
 /* On Scroll */
 
 #navbar.scrolled{
@@ -340,14 +358,14 @@ h2{
     font-size: 25px;
 }
 .home{
-    margin-top: 40px;
+    /*margin-top: 50px;*/
     padding: 15px;
     height: 100vh;
     color: #fffffff1;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("admin.PNG");
+    background-image: url("admin.png");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
